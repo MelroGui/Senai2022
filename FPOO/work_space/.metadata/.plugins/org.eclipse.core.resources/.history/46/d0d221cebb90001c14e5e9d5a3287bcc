@@ -1,0 +1,22 @@
+package model;
+
+public class ListaVetor2_1 {
+
+	public static void main(String[] args) {
+		
+	}
+	public static void mostra( ) {
+		int[] vet = new int [5];
+		vet[0] = 2;
+		vet[1] = 4;
+		vet[2] = 5;
+		vet[3] = 6;
+		vet[4] = 8;
+		
+		System.out.println("Indice\t\valor");
+		
+	}
+	public static void leVetor( ) {
+		
+	}
+}

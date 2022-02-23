@@ -1,0 +1,12 @@
+body {
+	  background-color:	#F8CBF8;
+}
+h1 {
+	size: 25px;
+}
+button{
+	height: 30px;
+	border: 1px solid black;
+	width: 100px;
+	background-color: white;
+}

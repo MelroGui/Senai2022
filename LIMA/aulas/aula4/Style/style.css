@@ -1,0 +1,15 @@
+body {
+				background-image: url('../img/fundo.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			label{
+				color: fff;
+				font-size: 64px;
+			}
+			.class{
+				font-weight: bolder;
+			}
+			#id{
+				font-size: 75px;
+			}

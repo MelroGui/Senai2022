@@ -1,0 +1,20 @@
+body {
+	  background-color: rgb(0,255,255);
+}
+h1 {
+	size: 25px;
+}
+table {
+	background-color: white;
+}
+.fundo {
+	size: 25px;
+	background-image: url("../img/ceu.jpg");
+}
+button {
+	height: 30px;
+	border: 2px solid black;
+	width: 140px;
+	background-color: white;
+	color: black;
+}
