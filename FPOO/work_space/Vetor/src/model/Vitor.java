@@ -1,33 +1,36 @@
 package model;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Vitor {
 
-	public static Scanner sc;
-	public static void main(String[] args) {
-	sc = new Scanner(System.in);	
-	
-	int comprimento = 3;
+	public static void main(String[] args) throws IOException{
 
-	String[] nomes = new String[3];
-	int[] idades = new int[3];
-	for(int i = 0; i < 3; i++) {
-		System.out.println("Nomes["+ i + "]");
-		nomes[i] = sc.next();
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Digite quantas pessoas deseja classificar:");
+		int comprimento = scan.nextInt();
 		
-		System.out.println("Idades["+ i + "]");
-		idades[i] = sc.nextInt();
-	 	}
-	for(int i = 0; i < 3; i++) {
-		if(idades[i]<10) {
-			System.out.println(nomes[i] + " criança esperança");
-		}else if(idades[i]<20) {
-			System.out.println(nomes[i] + "Pq estoy vivo");			
+		//Vetor
+		String[] nomes = new String[comprimento];
+		int[] idades = new int[comprimento];
+		for(int i = 0; i < comprimento; i++) {
+			System.out.print("Nome["+i+"]: ");
+			nomes[i] = scan.next();
+			System.out.print("Idade["+i+"]: ");
+			idades[i] = scan.nextInt();
 		}
-		}else {
-			System.out.println(nomes[i] + " AAAAAAAAAAAAAA");			
+
+		for(int i = 0; i < comprimento; i++) {
+			if(idades[i]<10) {
+				System.out.println(nomes[i]+" criança.");
+			}else if(idades[i]<20) {
+				System.out.println(nomes[i]+" Jovem.");
+			}else {
+				System.out.println(nomes[i]+" veio.");
+			}
 		}
-		}
+		
 	}
 
+}

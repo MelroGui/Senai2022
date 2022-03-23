@@ -42,5 +42,6 @@ public class ListaVetor2_1 {
 			System.out.println("");
 		
 		}
+		return leVetor;
 	}
 }

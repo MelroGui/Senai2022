@@ -1,0 +1,51 @@
+body {
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+.boxmain {
+    display: grid;
+    width: 750px;
+    height: 80vh;
+    background-color: rgb(36, 36, 36);
+    margin-top: 8%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.menubox {
+    margin-top: 8%;
+}
+.itembox {
+    color: white;
+    margin-top: 8%;
+}
+.imgbox {
+    margin-top: 8%;
+}
+.imgin {
+    width: 32px;
+    height: 32px;
+    align: center;
+    border: 1px solid;
+    margin-top: 8%;
+}
+.imgmenu {
+    width: 32px;
+    height: 32px;
+    box-align: center;
+}
+.pesquisa {
+    height: 80%;
+    width: 350px;
+    
+}
+.footer {
+    bottom:0;
+    width: 100%;
+    height: 45px;
+    background-color: #0e0e0e;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.01%;
+  }
+  

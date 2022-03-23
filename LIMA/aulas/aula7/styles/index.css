@@ -1,0 +1,207 @@
+html, body, ul{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-image: url("../img/fundo.png");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+.header{
+    display: flex;    
+    background-color: #f5c91c;
+    justify-content:space-around;
+    padding-bottom: 10px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin:5px 10px 0 10px;
+    border-radius: 0 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+input {
+  width: 600px;
+  height: 40px;
+  border: 1px solid;
+}
+
+#divBusca {
+  background-color:#2F4F4F;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+}
+
+#txtBusca {
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+
+.login {
+    color:#000000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px;
+}
+
+.topnav{
+    display: flex;
+    justify-content:space-around;
+    background-color: #ffffff;
+}
+
+.topnav a{
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.grid {
+	grid-template-rows: 310px 70px 310px 70px;
+  display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  max-width: 400px;
+  margin: 0 20%;
+}
+
+.item {
+	margin: 5px;
+	background: #000000;
+	text-align:center;
+	font-size: 20px;
+}
+.item:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.produto{
+  height: 300px;
+  width: 300px;
+  font-size: 40px;
+}
+
+.valor{
+  margin: 5px;
+  background: #f5c91c;
+  font-size: 25px;
+  text-align: center;
+}
+
+.tabela{
+  padding-left: 10px;
+  border: solid 1px;
+  margin-top: 5px;
+  height: 180px;
+  padding-right: 20px;
+  background-color: white;
+}
+
+.filtros {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  padding-top: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.filtros input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #0c0c0c;
+}
+
+.filtros:hover input ~ .checkmark {
+  background-color: #ffffff;
+}
+
+.filtros input:checked ~ .checkmark {
+  background-color: #ffffff;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.filtros input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.filtros .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #0c0c0c;
+  border-width: 0 3px 3px 0; 
+  transform: rotate(45deg);
+}
+
+.meio{
+  display:flex;
+}
+
+.footer {
+  bottom:0;
+  margin-top: 30px;
+  width:100%;
+  height: 45px;
+  background-color: #f5c91c;
+  display: flex;
+  flex-direction: column;
+}
+
+.linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menu {
+  margin: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+  border: 1px solid;
+  cursor: pointer;
+}
+.menu:hover {
+  background-color:#000000;
+  color: #ffffff;
+}
