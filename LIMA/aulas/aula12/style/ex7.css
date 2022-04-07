@@ -1,0 +1,33 @@
+a {
+    position: relative;
+    left: 90%;
+}
+.titulo h1{
+    margin-bottom: -2%;
+}.cabeça {
+    background-color: rgb(197, 45, 45);
+    width: 100%;
+    height: 150px;
+}
+.le {
+    background-color: rgb(227, 164, 164);
+    width: 20%;
+    height: 556px;
+}
+.ld {
+    background-color: rgb(122, 45, 45);
+    width: 80%;
+    height: 556px;
+}
+.pé {
+    background-color: rgb(148, 52, 52);
+    width: 100%;
+    height: 150px;
+}
+.boxmain {
+    width: 100%;
+    height: 100%;
+}
+.boxsec {
+    display: flex;
+}

@@ -1,0 +1,48 @@
+a {
+    position: relative;
+    left: 90%;
+}
+.titulo h1{
+    margin-bottom: -2%;
+    background-color: #fff;
+}.cabeça {
+    background-color: rgb(197, 45, 45);
+    width: 100%;
+    height: 50px;
+}
+.panda {
+    display: flex;
+    justify-content: center;
+}
+.fundo {
+    background-color: rgb(122, 45, 45);
+    width: 100%;
+    height: 760px;
+}
+.pé {
+    background-color: rgb(148, 52, 52);
+    width: 100%;
+    height: 50px;
+}
+.boxmain {
+    width: 100%;
+    height: 100%;
+}
+.itens {
+    color: #fff;
+    size: 40px;
+    display: flex;
+    justify-content: right;
+    margin-right: 25px;   
+}
+.itens p {
+    margin-left: 30px;
+    font-size: 25px;
+}
+.péle {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: right;
+}

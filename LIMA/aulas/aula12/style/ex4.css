@@ -1,0 +1,25 @@
+a {
+    position: relative;
+    left: 90%;
+}
+.titulo h1{
+    margin-bottom: -2%;
+}
+.red {
+    background-color: red;
+    width: 650px;
+    height: 88vh;
+}
+.green {
+    background-color: rgb(0, 255, 0);
+    width: 650px;
+    height: 88vh;
+}
+.blue {
+    background-color: blue;
+    width: 650px;
+    height: 88vh;
+}
+.cores {
+    display: flex;
+}
