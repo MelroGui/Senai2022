@@ -1,84 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/Dashboard1.css">
-        <title>Dashboard 1</title>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style/dashboard1.css">
+</head>
+<body>
+    <div class="container">
         <header>
-            <div class="cabeça1"></div>
-            <div class="cabeça2"></div>
-            <div class="cabeça3"></div>
+            <span>
+                <img src="./img//logo.png" width="40" alt="IMAGE LOGO">
+                <p>Qualidade Aplicada Ltda.</p>
+            </span>
+            <nav>
+                <p>Olá, Claudio</p>
+                <img src="./img/" width="40" alt="IMAGE MENU">
+                <img src="./img//home.png" width="40" alt="IMAGE HOME">
+                <img src="./img//user.png" width="40" alt="IMAGE HOME">
+                <img src="./img//copyright.png" width="40" alt="IMAGE HOME">
+                <img src="./img//help.png" width="40" alt="IMAGE HOME">
+                <p>Sair</p>
+            </nav>
         </header>
-        <nav1>
-            <div class="DB1"></div>
-            <div class="DB1"></div>
-            <div class="DB1"></div>
-        </nav1>
-        <nav2>
-            <div class="ret1">
-                <p class="pret">Atividades Concluidas</p>
-                <h1 class="hret">9</h1>
+        <div class="form">
+            <form action="#">
+                <h2>DashBoard Performance</h2>
+                <hr/>
+                <p>Período</p>
+                <input type="date" >                
+                <input type="date" >
+                <p>Período de Atividade</p>
+                <select></select>
+            </form>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <p>ATIVIDADES CONCLUÍDAS</p>
+                <p>9</p>
             </div>
-            <div class="ret2">
-                <p class="pret">Menor Pontuação</p>
-                <h1 class="hret">37</h1>
+            <div class="card">
+                <p>MENOR PONTUAÇÃO</p>
+                <p>37</p>
             </div>
-            <div class="ret3">
-                <p class="pret">Atividades pendentes</p>
-                <h1 class="hret">1</h1>
+            <div class="card">
+                <p>ATIVIDADES PENDENTES</p>
+                <p>1</p>
             </div>
-            <div class="ret4">
-                <p class="pret">Maior Pontuação</p>
-                <h1 class="hret">91</h1>
+            <div class="card">
+                <p>MAIOR PONTUAÇÃO</p>
+                <p>91</p>
             </div>
-            <div class="ret5">
-                <p class="pret">Atividades Canceladas</p>
-                <h1 class="hret">0</h1>
+            <div class="card">
+                <p>ATIVIDADES CANCELADAS</p>
+                <p>0</p>
             </div>
-            <div class="ret6">
-                <p class="pret">Tempo Médio em Dias</p>
-                <h1 class="hret">12</h1>
+            <div class="card">
+                <p>TEMPO MÉDIO EM DIAS</p>
+                <p>12</p>
             </div>
-            <div class="ret7">
-                <p class="pret">Na Média</p>
-                <h1 class="hret">5</h1>
+            <div class="card">
+                <p>NA MÉDIA</p>
+                <p>5</p>
             </div>
-            <div class="ret8">
-                <p class="pret">Desvio Padrão</p>
-                <h1 class="hret">19,36</h1>
+            <div class="card">
+                <p>DESVIO PADRÃO</p>
+                <p>19,36</p>
             </div>
-        </nav2>
-        <main class="maim">
-            <div class="div1">
-                <p>Nota Medía</p>
-                <h1>65,44</h1>
-                <img src="./img/interro.png" class="interro"></img>
+        </div>
+        <main>
+            <div class="options">
+                <div class="bloco b1">
+                    <p>Nota Média <br> <span class="nota">65,44</span></p>
+                    <img src="./img//help.png" alt="Icon Helper">
+                </div>
+                <div class="bloco b2">
+                    <p>Nota Média <br> <span class="nota">10</span></p>
+                    <img src="./img//help.png" alt="Icon Helper">
+                </div>
+                <div class="bloco b3">
+                    <p>Nota Média <br> <span class="nota">4</span></p>
+                    <img src="./img//help.png" alt="Icon Helper">
+                </div>
+                <div class="bloco b4">
+                    <p>Nota Média <br> <span class="nota">13    </span></p>
+                    <img src="./img//help.png" alt="Icon Helper">
+                </div>
             </div>
-            <div class="div2">
-                <p>Atividades Totais</p>
-                <h1>10</h1>
-                <img src="./img/interro.png" class="interro"><img>
-            </div>
-            <div class="div3">
-                <p>Comentaríos</p>
-                <h1>4</h1>
-                <img src="./img/interro.png" class="interro"><img>
-            </div>
-            <div class="div4">
-                <p>Total de Fotos</p>
-                <h1>13</h1>
-                <img src="./img/interro.png" class="interro"><img>
-            </div>
-            <div class="div5">
-                <img src="./img/down.png" class="down"><img>
-            </div>
-            <div class="gra">
-                <img src="./img/gra.png" class="gra"><img>
-            </div>
+            <img src="./img//grafico.jpg" alt="">
         </main>
-    </body>
+    </div>
+</body>
 </html>
