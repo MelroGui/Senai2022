@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+D:\GuiM\senai\Senai1DES\FPOO\work_space\.metadata\.plugins\org.eclipse.jdt.core
-328208560.index
-1865797976.index
-3797950137.index
