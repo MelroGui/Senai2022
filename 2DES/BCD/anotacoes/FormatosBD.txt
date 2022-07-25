@@ -1,0 +1,21 @@
+Banco de dados
+
+Não estruturados .txt . doc. pdf
+
+semi estruturados formato de tabela (.csv,.xls,.json)
+
+estruturado SQL 	NãoSQL
+            DDL		Chave-valor
+	    DML		tabelas
+            DCL
+
+
+Exemplo - csv 		semi-estruturado 	nao SQL 	relacional
+	- Excel 	semi-esrruturado 	nao SQL 	nao relacionalvel
+	- PowerBI 	estruturado 		nao SQL 	relacional
+	- Fire Base 	estruturado 		nao SQL 	nao relacional
+	- MySQL 	estruturado 		SQL 		relacional
+	- Access 	estruturado 		SQL 		relacional
+	- Oracle
+	- SQL server
+	- DB2

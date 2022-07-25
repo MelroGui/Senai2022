@@ -1,52 +1,59 @@
-// //tagname, id, class
-// var texto = document.getElementByTagName("h1")
-
-// // console.log(texto)
-
-// var titulo = document.getElementById("titulo")
+// var text = document.getElementsByTagName("h1");
+// var title = document.getElementById("title");
 
 // var aluno = {
 //     nome: "Fulano",
-//     matricula: 234578
-// }
+//     matricula: 453567,
+//     status: true,
+//     notas: [8,9,10.5]  
+// };
 
-// // console.log(titulo)
+// title.innerHTML = `Nome: ${aluno.nome} </br> Matrícula: ${aluno.matricula}`;
+// title.style.color = "green";
 
-// titulo.innerHTML = `Nome : ${aluno.nome} Matricula : ${aluno.Matricula}`
+// var divisao = document.getElementsByClassName("divisao");
+// var title2 = document.querySelector("#title");
+// var div = document.querySelectorAll(".divisao");
 
-// titulo.style.color ="green"
-// // titulo.style.margin ="80px"
+// console.log(title2, divisao, div);
 
-// var mensagem = document.getElementById("mensagem")
+var busca = document.querySelector("#busca");
+var linhas = document.querySelectorAll("tr");
 
-// mensagem.style.display = "block"
+var btBusca = document.querySelector("button");
 
-// var divisao = document.getElementByClass("divisao")
+btBusca.addEventListener("click", buscarNome);
 
-// console.log(divisao)
+busca.addEventListener("keyup", buscarNome);
 
-// // document.querySelector()
-// // document.querySelectorAll()
+function buscarNome(){
 
-// var titulo2 = document.querySelector("#titulo")
-// var div = document.querySelectorAll(".divisao")
-// var msg = document.querySelector("h1")
+    let encontrei = false;
 
-// console.log(div)
-
-var linhas = document.querySelectorAll("tr")
-
-linhas.forEach(linha => {
-    let temp = linha.querySelector("td")
-    if(temp != null) {
-        console.log(temp.innerHTML == "Fulano da Siva")
-        alert("Encontrei")
-    }  
-})
-
-let v1 = 1
-let v2 = "1"
-
-if(v1 !== v2) {
-    console.log("Não Somos Iguais")
+    linhas.forEach(linha => {
+        let temp = linha.querySelector("td");
+        if(temp != null){
+            //console.log(temp.innerHTML);
+            // if(temp.innerHTML.toLowerCase() == busca.value.toLowerCase()){
+            //     alert("Achei!");
+            //     encontrei = true;
+            //     linha.style.fontWeight = "bold";
+            //     linha.style.color = "Green";
+            // }
+            if(temp.innerHTML.toLowerCase().includes(busca.value.toLowerCase())){
+                linha.style.display = "table-row";
+            }else {
+                linha.style.display = "none";
+            }
+        }
+    });
+    // if(!encontrei) alert("Não Encontrei!");
 }
+
+// let v1 = 1, v2 = "1";
+
+// if(v1 === v2){
+//     console.log("Somos Iguais");
+// }else{
+//     console.log("Não somos Iguais");
+// }

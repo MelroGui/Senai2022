@@ -1,0 +1,8 @@
+DER(diagrama, entidade, relacionamento)
+
+SGBD(sistema, gerenciador, banco, dados)
+
+Acessar SGBD Maria BD 
+1 - Xamp
+2 - start apache mysql
+3 - admin(MySQL) Shell
