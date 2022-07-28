@@ -31,7 +31,7 @@ function buscarNome(){
     let encontrei = false;
 
     linhas.forEach(linha => {
-        let temp = linha.querySelector("td");
+        let temp = linha.querySelectorAll("td")[0];
         if(temp != null){
             //console.log(temp.innerHTML);
             // if(temp.innerHTML.toLowerCase() == busca.value.toLowerCase()){
